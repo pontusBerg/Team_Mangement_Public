@@ -1,0 +1,19 @@
+.textarea-wrap .textarea-label {
+  display: block;
+  margin-bottom: var(--spacing-1);
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.textarea-wrap .textarea {
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  height: 100%;
+  width: 100%;
+  resize: none;
+  border: none;
+  font-size: 16px;
+  padding: var(--spacing-1);
+  border-radius: var(--border-radius);
+}
+/*# sourceMappingURL=textarea.style.css.map */

@@ -1,0 +1,65 @@
+:root {
+  --box-shadow: 0px 0px 7px rgba(0,0,0,0.15);
+  
+  --border-radius: 4px;
+
+  --phone-tablet-full-height: calc(100vh - 70px)
+
+  --spacing-1: 8px;
+  --spacing-2: 16px;
+  --spacing-3: 24px;
+  --spacing-4: 32px;
+  --spacing-5: 40px;
+  --spacing-6: 48px;
+
+  --color-primary: #2F344C;
+  --color-primary-hover: #363B59;
+  --color-secondary: #648CF6;
+  --color-secondary-hover: #517DF5;
+  --color-hover: #F2F3F7;
+  --color-focus: #F2F3F7;
+  --color-error: #EF5B5B;
+
+  --font-text: 16px; 
+  --font-input: 14px;
+  
+  --font-faded: #828282;
+
+  --color-skeleton-grey1: #f4f4f4;
+  --color-skeleton-grey2: #E0E0E0;
+  --color-skeleton-grey3: #C2C2C2;
+  --circle-skeleton:   radial-gradient(circle 60px, white 99%, transparent 0);
+  --rectangle-small-skeleton: linear-gradient(white 30px, transparent 0);
+  --rectangle-big-skeleton: linear-gradient(white 50px, transparent 0);
+
+  --skeleton-animation: loading 1.5s ease-in-out infinite;
+
+
+  --avatar-size: 32px;
+  --avatar-position: var(--card-padding) var(--card-padding);
+  --avatar-skeleton: radial-gradient(circle 16px at center, white 99%, transparent 0
+  );
+  
+  --title-height: 32px;
+  --title-width: 200px;
+  --title-position: var(--card-padding) 180px;
+  --title-skeleton: linear-gradient(white var(--title-height), transparent 0);
+  
+  --desc-line-height: 16px;
+  --desc-line-skeleton: linear-gradient(white var(--desc-line-height), transparent 0);
+  --desc-line-1-width:230px;
+  --desc-line-1-position: var(--card-padding) 242px;
+  --desc-line-2-width:180px;
+  --desc-line-2-position: var(--card-padding) 265px;
+  
+  --footer-height: 40px;
+  --footer-position: 0 calc(var(--card-height) - var(--footer-height));
+  --footer-skeleton: linear-gradient(white var(--footer-height), transparent 0);
+  
+  --blur-width: 200px;
+  --blur-size: var(--blur-width) calc(var(--card-height) - var(--footer-height));
+}
+
+
+
+

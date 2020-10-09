@@ -1,0 +1,28 @@
+.btn-primary, .btn-decline, .btn-outline {
+  padding: 12px 30px;
+/*   background: var(--color-secondary); */
+  color:white;
+  font-weight: 500;
+  color:white;
+  border:None;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.btn-primary {
+  border:1px solid var(--color-secondary);
+  background:var(--color-secondary);
+}
+
+.btn-decline {
+
+  background: var(--color-error);
+}
+
+.btn-outline {
+  border:1px solid var(--color-secondary);
+  color:var(--color-secondary);
+  background:white;
+  box-shadow: none;
+}

@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee480b45.chunk.css",
+    "main.js": "/static/js/main.f2acb1e1.chunk.js",
+    "main.js.map": "/static/js/main.f2acb1e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.09b85ec0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.09b85ec0.js.map",
+    "static/js/2.3821a8bc.chunk.js": "/static/js/2.3821a8bc.chunk.js",
+    "static/js/2.3821a8bc.chunk.js.map": "/static/js/2.3821a8bc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b7cc1d97b4e0d359d36b276051526ef1.js": "/precache-manifest.b7cc1d97b4e0d359d36b276051526ef1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.ee480b45.chunk.css.map": "/static/css/main.ee480b45.chunk.css.map",
+    "static/js/2.3821a8bc.chunk.js.LICENSE.txt": "/static/js/2.3821a8bc.chunk.js.LICENSE.txt",
+    "static/media/hero.jpg": "/static/media/hero.7420149b.jpg",
+    "static/media/loading-spinner.svg": "/static/media/loading-spinner.991119f4.svg",
+    "static/media/placeholder-user.svg": "/static/media/placeholder-user.0b846be3.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09b85ec0.js",
+    "static/js/2.3821a8bc.chunk.js",
+    "static/css/main.ee480b45.chunk.css",
+    "static/js/main.f2acb1e1.chunk.js"
+  ]
+}

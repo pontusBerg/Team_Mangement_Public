@@ -1,0 +1,38 @@
+.create-todo-page {
+  padding:var(--spacing-5) 0;
+  
+ .dropdown-select-wrap {
+    width: 100%;
+ } 
+ .dropdown-select {
+   width: 100%;
+ }
+ .input, .dropdown-select-wrap {
+   margin-bottom: var(--spacing-3);
+ }
+}
+
+@media(min-width:1025px) {
+.create-todo-page {
+  height: 100%;
+  padding-top:1vh;
+  max-width: 600px;
+  .container {
+    padding: 0 10px;
+  }
+  .textarea {
+    min-height: 200px;
+  }
+}
+}
+
+@media(min-width:768px) {
+  .create-todo-dropdown-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: var(--spacing-3);
+    .dropdown-select-wrap {
+      margin-right: var(--spacing-3);
+    }
+  }
+}

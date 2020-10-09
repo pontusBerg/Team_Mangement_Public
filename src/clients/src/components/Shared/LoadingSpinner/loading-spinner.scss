@@ -1,0 +1,10 @@
+.loading-spinner-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  .loading-spinner {
+    width: 200px;
+  }
+}

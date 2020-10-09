@@ -1,0 +1,105 @@
+
+.team-chat-page {
+  max-height: var(--phone-tablet-full-height);
+  max-width: 100vw;
+  width: 100%;
+  overflow: hidden;
+  height: var(--phone-tablet-full-height);
+  .team-messages-list {
+    overflow-y: scroll;
+    padding: var(--spacing-3) var(--spacing-2);
+    height: 100%;
+    &-load-content{
+      display: flex;
+      justify-content: center;
+      margin-bottom: var(--spacing-3);
+    }
+    &-seen {
+      color: var(--font-faded);
+    }
+  }
+  .team-message {
+    width: 100%;
+    padding-bottom: var(--spacing-5);
+    border-radius: var(--border-radius);
+    position: relative;
+    max-width: 375px;
+  }
+  .chat-bubble {
+    padding:var(--spacing-2) var(--spacing-1);
+    border-radius: var(--border-radius);
+    position: relative;
+    margin-bottom: var(--spacing-1);
+    box-shadow: var(--box-shadow);
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .chat-bubble-createdAt {
+    position: absolute;
+    bottom:-25px;
+    font-size: 14px;
+    color:var(--font-faded);
+    font-size: var;
+    left: 0;
+  }
+
+  .chat-profile-img {
+    display: flex;
+    justify-content: flex-end;
+
+    img {
+      border-radius: 50%;
+      object-fit: cover;
+      height: 40px;
+      display: block;
+      width: 40px;
+    }
+  }
+
+
+}
+
+
+.team-messages-message-list {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+@media(min-width:768px) {
+  .team-chat-page {
+    .team-message {
+      min-width: 375px;
+    }
+  }
+}
+
+@media(min-width:1025px) {
+  .team-chat-page {
+    min-height: 100vh;
+    height: 100vh;
+    padding-top: 1vh;
+    .team-message {
+      display: flex;
+      justify-content: flex-end;
+    }
+    .chat-bubble {
+      min-width: 250px;
+    }
+    .team-messages-list {
+      min-height: 75vh;
+      height: 75vh;
+    }
+    
+    .chat-profile-img {
+      align-items: flex-end;
+      margin-left:var(--spacing-2);
+    }
+
+    .write-message-toolbar {
+      height: 9vh;
+    }
+  }
+  
+}
+
+

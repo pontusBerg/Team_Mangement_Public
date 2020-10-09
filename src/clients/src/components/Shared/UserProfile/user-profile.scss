@@ -1,0 +1,39 @@
+.user-profile-container {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  height: 15vh;
+  font-size: 18px;
+  .user-profile {
+  background:White;
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-1) var(--spacing-1);
+    border-radius: var(--border-radius);
+    > img {
+      height: 60px;
+      object-fit: cover;
+      border-radius: 50%;
+      width: 60px;
+      margin-right: var(--spacing-2);
+      margin-left: var(--spacing-4);
+      box-shadow: var(--box-shadow);
+    }
+    svg {
+      font-size: 28px;
+      color: var(--font-faded);
+    }
+    &-name {
+      font-weight: 600;
+      font-size: 16px;
+    }
+    &-close-button {
+      background:None;
+      border: none;
+    }
+  
+   &-close-button svg:hover {
+      color: var(--color-secondary);
+    }
+  }
+}

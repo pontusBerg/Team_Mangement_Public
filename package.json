@@ -1,0 +1,32 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.28",
+    "socket.io": "^2.3.0",
+    "validator": "^13.1.1"
+  },
+  "devDependencies": {
+    "jest": "^26.4.0",
+    "supertest": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "nodemon ./src/app.js",
+    "test": "env-cmd -f ./test.env jest --watch",
+    "seed": "nodemon ./src/seeds/seed.js",
+    "start": "node ./src/app.js"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC"
+}

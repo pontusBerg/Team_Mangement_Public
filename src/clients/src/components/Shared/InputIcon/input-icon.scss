@@ -1,0 +1,37 @@
+
+ .input-icon {
+  background:White;
+  height:50px;
+  box-shadow: var(--box-shadow);
+  border-radius:var(--border-radius);
+  display: flex;
+  align-items: center;
+  transition: 0.2s linear background;
+  padding: 0 var(--spacing-1);
+  position: relative;
+  input {
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+    border: none; 
+    padding-left: var(--spacing-1);
+    font-size: var(--font-input);
+    transition: 0.2s linear background;
+  }
+
+  input::placeholder {
+    color: var(--font-faded);
+  }
+
+  svg {
+    font-size: 24px;
+  }
+}
+
+
+.input-icon:focus-within  {
+  background: var(--color-focus);
+  svg {
+    color: var(--color-secondary);
+  }
+}

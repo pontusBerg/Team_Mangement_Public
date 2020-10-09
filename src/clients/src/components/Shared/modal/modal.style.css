@@ -1,0 +1,72 @@
+.bottom-modal {
+  bottom: 150px;
+  right: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 95%;
+  max-width: 400px;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  min-height: 100px;
+  padding: var(--spacing-1) var(--spacing-2);
+  background: White;
+  border-radius: var(--border-radius);
+}
+
+.bottom-modal-title {
+  font-size: 24px;
+  font-weight: 600;
+  color: var(--color-primary);
+}
+
+.bottom-modal-text {
+  color: var(--font-faded);
+}
+
+.bottom-modal-icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: var(--spacing-1);
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.bottom-modal svg {
+  font-size: 32px;
+  color: white;
+}
+
+@media (min-width: 1025px) {
+  .bottom-modal {
+    bottom: 20px;
+    -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+    right: 20px;
+    width: auto;
+  }
+  .bottom-modal-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
+/*# sourceMappingURL=modal.style.css.map */

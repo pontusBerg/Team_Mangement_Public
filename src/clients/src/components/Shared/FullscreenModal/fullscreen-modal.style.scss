@@ -1,0 +1,34 @@
+.fullscreen-modal {
+  height: 100%;
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: scroll;
+  .fullscreen-modal-content {
+    background: White;
+    position: relative;
+  }
+
+  .icon-hover {
+    position: absolute;
+    top:15px;
+    right:15px;
+  }
+}
+
+@media(min-width:1025px) {
+  .fullscreen-modal {
+    height: 100vh;
+    flex-shrink: 0;
+    width: 100vw;
+
+    .fullscreen-modal-content {
+      padding-top:50px;
+    }
+  }
+}

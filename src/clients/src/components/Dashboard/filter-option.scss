@@ -1,0 +1,37 @@
+.filter-options-section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.filter-option {
+
+  background: var(--color-secondary);
+  width:100px;
+  height:45px;
+  border-radius: var(--border-radius);
+  margin: var(--spacing-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  font-weight: 500;
+}
+
+input[type="radio"] {
+
+  position: absolute;
+  top:0px;
+  left:0px;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+}
+
+input {
+    cursor: pointer;
+}
+
+.filter-option:hover {
+  box-shadow: var(--box-shadow);
+}

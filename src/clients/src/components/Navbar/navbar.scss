@@ -1,0 +1,144 @@
+.nav-trigger-area {
+  position: relative;
+
+  .hamburger-bar {
+    width:22px;
+    height:2px;
+    background:white;
+    display: block;
+  }
+
+  .hamburger-bar:nth-child(1) {
+    margin-bottom: 4px;
+  }
+  .hamburger-bar:nth-child(3) {
+    margin-top: 4px; 
+  }
+
+}
+
+
+.nav-small-device {
+  &-top-bar {
+    height: 70px;
+    background: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+
+.nav-content {
+  background:var(--color-primary);
+  z-index: 999;
+  
+}
+
+@media(max-width:1025px) {
+  .nav-content {
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top:70px;
+    left:0px;
+
+    width: 100%;
+  }
+  .nav-content-section {
+    
+    padding-left:var(--spacing-2);
+    color:white;
+    padding:var(--spacing-3);
+    display: flex;
+    align-items: center;
+    width: 90%; 
+    margin: 0 auto;
+    &-title {
+      font-size: 24px;
+      font-weight: 500;
+    }
+  
+    &-icon {
+      font-size: 24px;
+      margin-right: var(--spacing-3);
+    }
+    &-link {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      width: 100%;
+    }
+  }
+  
+}
+
+@media(min-width:1025px)and (max-width: 1919px) {
+  .navbar {
+    height: 100%;
+    width: 100px;
+    .nav-content {
+      height: 100%;
+    }
+    .nav-content-section {
+      &-title {
+        display: none;
+      }
+
+
+  }
+}
+
+}
+
+@media(min-width: 1025px) {
+  .navbar {
+    .nav-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: var(--spacing-3) 0;
+    }
+    .nav-content-section {
+      height: 70px;
+      width: 70px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 var(--spacing-2);
+      &-icon {
+        font-size: 38px;
+        color:white;
+  
+      }
+    }
+  }
+}
+ 
+@media(min-width:1920px) {
+  .navbar {
+    width: 300px;
+    .nav-content {
+      height: 100%;
+      color: white;
+      .nav-content-section {
+        width: 80%;
+        margin: 0 auto;
+        &-link {
+          display: flex;
+          align-items: center;
+          display: flex;
+          width: 100%;
+          height: 100%;
+        }
+        &-title {
+          margin-left: var(--spacing-2);
+        }
+      }
+    }
+
+  }
+}

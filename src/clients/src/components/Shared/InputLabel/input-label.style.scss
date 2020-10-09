@@ -1,0 +1,9 @@
+.input-label {
+  &-label {
+    font-weight: 500;
+    font-size: 16px;
+    display: block;
+    margin-bottom: var(--spacing-1);
+    border-radius: var(--border-radius);
+  }
+}

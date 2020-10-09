@@ -1,0 +1,11 @@
+.input {
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  border: None;
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 var(--spacing-1);
+  border-radius: var(--border-radius);
+}
+/*# sourceMappingURL=input.style.css.map */

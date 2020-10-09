@@ -1,0 +1,29 @@
+.modal-confirm {
+  border-radius: var(--border-radius);
+  padding: var(--spacing-2) var(--spacing-3);
+  max-width: 400px;
+
+  &-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: var(--spacing-1);
+  }
+
+  &-text {
+    margin-bottom: var(--spacing-3);
+    font-size: 16px;
+    color: var(--font-faded);
+  }
+
+  &-button-wrap {
+    display: flex;
+  }
+
+  .btn-primary:nth-child(1) {
+    margin-right: var(--spacing-1);
+  }
+
+  .btn-primary:nth-child(2) {
+    margin-left: var(--spacing-1);
+  }
+}

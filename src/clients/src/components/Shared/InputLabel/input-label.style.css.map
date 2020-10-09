@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACG,AAAD,kBAAO,CAAC;EACN,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,KAAK;EACd,aAAa,EAAE,gBAAgB;EAC/B,aAAa,EAAE,oBAAoB;CACpC",
+    "sources": [
+        "input-label.style.scss"
+    ],
+    "names": [],
+    "file": "input-label.style.css"
+}
